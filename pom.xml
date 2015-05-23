@@ -11,6 +11,10 @@ http://maven.apache.org/maven-v4_0_0.xsd
 	<version>1.0</version>
 	<name>JenkinsCI-Test</name>
 	
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+	</build>
+	
 	<reporting>
 		<plugins>
 			<plugin>
