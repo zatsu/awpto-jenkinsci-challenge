@@ -11,7 +11,7 @@ http://maven.apache.org/maven-v4_0_0.xsd
 	<version>1.0</version>
 	<name>JenkinsCI-Test</name>
 	
-	<reporting>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -19,6 +19,6 @@ http://maven.apache.org/maven-v4_0_0.xsd
 				<version>3.4</version>
 			</plugin>
 		</plugins>
-	</reporting>
+	</build>
   
 </project>
