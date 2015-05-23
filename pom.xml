@@ -11,29 +11,22 @@ http://maven.apache.org/maven-v4_0_0.xsd
 	<version>1.0</version>
 	<name>JenkinsCI-Test</name>
 	
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-pmd-plugin</artifactId>
-				<version>3.4</version>
-			</plugin>
-		</plugins>
-	</build>
-	
 	<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.15</version>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>checkstyle</report>
-						</reports>
-					</reportSet>
-				</reportSets>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<configuration>
+		        	<skipEmptyReport>false</skipEmptyReport>
+		      	</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</reporting>
