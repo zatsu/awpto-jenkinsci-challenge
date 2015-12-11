@@ -10,7 +10,7 @@ public class Main
 		Pies cezar = new Bulterier();
 		maksiu.szczekaj();
 		rocky.szczekaj();
-		cezar.szczekaj();
+		cezar.szczekaj(); // Mala zmiana
 	}
 
 }
