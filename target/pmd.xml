@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2016-05-14T23:33:03.883">
+<file name="C:\Users\Zatsu\.jenkins\workspace\ProjectJenkins\src\pl\edu\us\ii\awpwo\ZwierzeSzczekajace.java">
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="24" rule="UnusedModifier" ruleset="Unused Code" package="pl.edu.us.ii.awpwo" class="ZwierzeSzczekajace" method="szczekaj" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+</pmd>
